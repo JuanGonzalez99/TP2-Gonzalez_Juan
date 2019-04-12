@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace TPModeloDeDominio
 {
-    class Producto
+    class Producto : TipoProducto
     {
-
+        public string Marca { get; set; }
+        public DateTime FechaElaboracion { get; set; }
+        public DateTime FechaIngreso { get; set; }
+        public DateTime FechaVencimiento { get; set; }
     }
 }

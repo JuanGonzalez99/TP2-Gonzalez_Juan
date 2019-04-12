@@ -8,6 +8,8 @@ namespace TPModeloDeDominio
 {
     class Pasillo
     {
-
+        public string Codigo { get; set; }
+        public List<Compartimiento> Compartimientos { get; set; }
+        
     }
 }

@@ -12,5 +12,6 @@ namespace TPModeloDeDominio
         public string Domicilio { get; set; }
         public string CUI { get; set; }
         public Contacto Contacto { get; set; }
+        public DateTime FechaNacimiento { get; set; }
     }
 }

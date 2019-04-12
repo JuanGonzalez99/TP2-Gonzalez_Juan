@@ -8,6 +8,6 @@ namespace TPModeloDeDominio
 {
     class Cliente : PersonaJuridica
     {
-
+        public List<string> CodCompartimientos { get; set; }
     }
 }

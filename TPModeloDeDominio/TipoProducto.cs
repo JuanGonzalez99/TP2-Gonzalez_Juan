@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace TPModeloDeDominio
 {
-    class Empleado : PersonaFisica
+    class TipoProducto
     {
-        public PuestoTrabajo Puesto { get; set; }
-        public DateTime FechaIngreso { get; set; }
+        public string Descripcion { get; set; }
     }
 }

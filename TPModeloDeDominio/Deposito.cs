@@ -8,6 +8,7 @@ namespace TPModeloDeDominio
 {
     class Deposito
     {
-
+        public string Nombre { get; set; }
+        public List<Pasillo> Pasillos { get; set; }        
     }
 }
